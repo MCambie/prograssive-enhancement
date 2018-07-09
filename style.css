@@ -1,0 +1,113 @@
+body {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: linear-gradient(-113deg, #CAE0F3, #2E5882);
+  background-image: url("background-img.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #282323;
+}
+
+header cite {
+  background-color: yellow;
+}
+
+h1, h4 {
+  font-family: 'Gaegu', cursive;
+  text-align: center;
+}
+
+li {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-right: 400px;
+  height: 100%;
+}
+
+blockquote {
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-left: 30px;
+  font-size: 160%;
+  font-style: italic;
+  background-color: lightgray;
+  border-left: 3px solid brown;
+}
+
+img {
+  width: 550px;
+  height: auto;
+  float: left;
+  margin-right: 50px;
+}
+
+.good-internet {
+  background-image: url("https://raw.githubusercontent.com/becodeorg/Johnson2/master/02-HTML-CSS/progressive-enhancement/bien.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.bad-internet {
+  background-image: url("https://raw.githubusercontent.com/becodeorg/Johnson2/master/02-HTML-CSS/progressive-enhancement/mal.png");
+  background-repeat: no-repeat;
+  background-position: right
+}
+
+.cat-internet {
+  background-image: url("https://raw.githubusercontent.com/becodeorg/Johnson2/master/02-HTML-CSS/progressive-enhancement/chat.png");
+  background-repeat: no-repeat;
+  background-position: right
+}
+
+.first-paragraph {
+  font-weight: bold;
+}
+
+.bien {
+  text-transform: capitalize;
+  color: green;
+}
+
+.mal {
+  text-transform: capitalize;
+  color: red;
+}
+
+.villageois {
+  border-left: 3px solid red;
+}
+
+.fermier {
+  border-left: 3px solid green;
+}
+
+.odd-row {
+  background-color: white;
+}
+
+.even-row {
+  background-color: lightgray;
+}
+
+a {
+  color: hotpink;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a:visited {
+  color: brown;
+}

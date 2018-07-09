@@ -55,6 +55,20 @@ figure {
   margin-right: 50px;
 }
 
+.notification {
+  background: #FFFFDD;
+  border: 3px solid #DDDDCC;
+  font-weight: bold;
+  color: #333300;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.notification p {
+  margin: 0;
+}
+
 .good-internet {
   background-image: url("https://raw.githubusercontent.com/becodeorg/Johnson2/master/02-HTML-CSS/progressive-enhancement/bien.png");
   background-repeat: no-repeat;

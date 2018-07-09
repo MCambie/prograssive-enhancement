@@ -28,7 +28,7 @@ h1, h4 {
 li {
   padding-top: 18px;
   padding-bottom: 18px;
-  margin-right: 400px;
+  margin-right: 250px;
   height: 100%;
 }
 
@@ -48,6 +48,9 @@ blockquote {
 img {
   width: 550px;
   height: auto;
+}
+
+figure {
   float: left;
   margin-right: 50px;
 }
@@ -81,7 +84,11 @@ img {
 
 .mal {
   text-transform: capitalize;
-  color: red;
+  color: darkred;
+}
+
+.cheval {
+  display: inline-block;
 }
 
 .villageois {
